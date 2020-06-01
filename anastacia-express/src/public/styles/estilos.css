@@ -1,0 +1,107 @@
+@font-face {
+  font-family: "padrao";
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: "negrito";
+  src: url(../fonts/Raleway-Bold.ttf);
+}
+@font-face {
+  font-family: "decorativa";
+  src: url(../fonts/Alegreya-MediumItalic.ttf);
+}
+body {
+  margin: 0;
+}
+
+#banner {
+  background-color: #89c4f4;
+  color: white;
+  text-align: center;
+  padding: 20px 0px 20px 0px;
+}
+#banner img {
+  width: 300px;
+  height: auto;
+}
+#banner h1 {
+  font-family: "decorativa";
+  font-size: 300%;
+  text-shadow: 3px 3px black;
+}
+#banner p {
+  font-family: "padrao";
+  font-size: 300%;
+}
+
+#centro {
+  display: flex;
+  font-family: "padrao";
+}
+
+#menu {
+  width: 50%;
+  background-color: #67809f;
+  color: white;
+  padding: 20px 0px 40px 20px;
+  vertical-align: middle;
+}
+#menu span {
+  font-size: 200%;
+  font-family: "negrito";
+}
+#menu ul {
+  list-style: none;
+  padding-left: 0;
+}
+#menu ul a {
+  text-decoration: none;
+  color: white;
+}
+#menu ul a:hover {
+  color: #abb7b7;
+}
+#menu ul li {
+  margin-bottom: 10px;
+}
+
+#conteudo {
+  display: inline-block;
+  width: 100%;
+  padding: 10px;
+}
+#conteudo img {
+  margin-bottom: 10px;
+  width: 300px;
+  height: auto;
+}
+#conteudo ul li {
+  list-style-type: none;
+  padding-left: 0;
+}
+#conteudo #rodape {
+  background-color: #95a5a6;
+  color: white;
+  padding: 20px;
+  font-size: 100%;
+  font-family: "negrito";
+}
+@media only screen and (max-width: 600px) {
+  #conteudo .banner {
+    padding: 5px;
+    font-size: 120%;
+    margin-bottom: 0px;
+  }
+  #conteudo .menu,
+#conteudo .conteudo {
+    display: block;
+  }
+  #conteudo .menu {
+    padding: 1px;
+    text-align: center;
+    font-size: 130%;
+    margin-bottom: 10px;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */
